@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a mi Sitio Web</h1>
+    </header>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>
+            " Soy alguien que estudia ingeniería de sistemas. Me apasiona la programación y disfruto mucho de leer. A través de estos intereses, busco seguir aprendiendo y desarrollándome tanto en el ámbito técnico como personal. Me encanta enfrentarme a nuevos desafíos y resolver problemas, especialmente cuando se trata de tecnologías de la información. También valoro la creatividad y la innovación que la programación permite, y siempre trato de aplicar lo que aprendo en proyectos personales o académicos. Además, me gusta estar al tanto de las últimas tendencias en tecnología y mejorar mis habilidades constantemente. Estoy en constante búsqueda de nuevas oportunidades para crecer profesionalmente y dar lo mejor de mí en todo lo que hago."
+        </p>
+        <img src="./img/IMG_20231217_035834_688.jpg" alt="Foto personal" width="200">
+        <a href="https://github.com/" target="_blank">Mi GitHub</a>
+    </section>
+
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Leer</li>
+            <li>Programar</li>
+            <li>Viajar</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Mis Tareas</h2>
+        <ol>
+            <li>Estudiar</li>
+            <li>Arreglar mi habitación</li>
+            <li>Cocinar</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Horario Semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8:00 AM</td>
+                    <td>Desayunar</td>
+                </tr>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Arreglar habitación</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Estudiar</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electronico: </label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message"> Mensaje: </label>
+            <textarea name="message" id="message" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
